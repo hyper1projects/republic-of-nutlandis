@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-paper-base: #EAE0CA;
+    --color-paper-raised: #F2E9D7;
+    --color-paper-secondary: #DCD0B9;
+    --color-ink-primary: #292824;
+    --color-ink-secondary: #625B50;
+    --color-ink-muted: #918675;
+    --color-grid-line: #B9AD98;
+    --color-official-red: #AD4032;
+    --color-official-dark-red: #843329;
+    --color-treasury-dark: #302B26;
+  }
+
+  body {
+    background-color: var(--color-paper-base);
+    color: var(--color-ink-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-image: 
+      linear-gradient(to right, rgba(185, 173, 152, 0.14) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(185, 173, 152, 0.14) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-repeat: repeat;
+    min-height: 100vh;
+  }
+
+  /* Headings use Roboto Slab */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', Georgia, serif;
+    color: var(--color-ink-primary);
+    letter-spacing: -0.015em;
+  }
+
+  /* Monospace for metadata & stamps */
+  code, pre, .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .bg-archival-grid {
+    background-color: #EAE0CA;
+    background-image: 
+      linear-gradient(to right, rgba(185, 173, 152, 0.14) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(185, 173, 152, 0.14) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-treasury-surface {
+    background-color: #302B26;
+    background-image: 
+      linear-gradient(to right, rgba(242, 233, 215, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(242, 233, 215, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .border-archival {
+    border-color: #B9AD98;
+  }
+
+  .border-double-gov {
+    border-style: double;
+    border-width: 3px;
+    border-color: #B9AD98;
+  }
+}
+
+/* Custom crisp scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EAE0CA;
+  border-left: 1px solid #B9AD98;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B9AD98;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #918675;
+}

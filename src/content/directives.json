@@ -1,0 +1,124 @@
+[
+  {
+    "id": "dir-day-01",
+    "title": "OPERATION COLD REVEILLE: SHOCK PROTOCOL",
+    "body": "Establish immediate psychological dominance over autumn climate. Purge lingering comfortable habits acquired during October. The continental shell requires instantaneous thermal crystallization upon initial alarm sounding.",
+    "plainSummary": "Get out of bed immediately. No warm showers. No lounging. The month starts now.",
+    "publicationDate": "2026-11-01T05:00:00Z",
+    "operationalDate": "NOVEMBER 01",
+    "category": "THERMAL PROTOCOLS",
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "order": 1,
+    "dayNumber": 1,
+    "codeName": "OPERATION COLD REVEILLE",
+    "hazardLevel": "MODERATE",
+    "prohibitedActions": [
+      "Remaining in bed for more than 45 seconds following alarm.",
+      "Adjustment of water mixer toward red/warm indicator.",
+      "Wearing fleece-lined loungewear after 07:00."
+    ],
+    "sanctionedCountermeasures": [
+      "Plunge hands into water containing at least three ice cubes.",
+      "100 brisk jumping jacks facing the official state portrait."
+    ],
+    "nationalComplianceRate": "99.88%"
+  },
+  {
+    "id": "dir-day-02",
+    "title": "OPERATION STEAM QUARANTINE: CONDENSATION BAN",
+    "body": "Eliminate domestic thermal indulgence and neutralize moisture-induced relaxation vectors. Bathing must be executed with abrupt mechanical efficiency in ambient conditions not exceeding 10 degrees Celsius.",
+    "plainSummary": "Cold showers only. No lotions. No long baths. Clean yourself quickly and move on.",
+    "publicationDate": "2026-11-02T05:00:00Z",
+    "operationalDate": "NOVEMBER 02",
+    "category": "HYDRAULIC RIGOR",
+    "isFeatured": true,
+    "publicationStatus": "published",
+    "order": 2,
+    "dayNumber": 2,
+    "codeName": "OPERATION STEAM QUARANTINE",
+    "hazardLevel": "SEVERE",
+    "prohibitedActions": [
+      "Wiping condensation from bathroom mirrors.",
+      "Application of body lotions or conditioning balms.",
+      "Browsing photographic media depicting tropical vacation destinations."
+    ],
+    "sanctionedCountermeasures": [
+      "Conduct hygiene solely with coarse pumice bar.",
+      "Stare at the blank ceiling while counting down from 1,000 in prime numbers."
+    ],
+    "nationalComplianceRate": "99.72%"
+  },
+  {
+    "id": "dir-day-03",
+    "title": "OPERATION GREYSCALE PURGE: VISUAL SENSORY DEPRIVATION",
+    "body": "Deprive the central nervous system of hyper-stimulating visual saturation across all screens and hand-held appliances. Color saturation is an unnecessary neuro-chemical stimulant that compromises continental resolve.",
+    "plainSummary": "Switch your phone to greyscale. Avoid stimulating content. Keep it boring on purpose.",
+    "publicationDate": "2026-11-03T05:00:00Z",
+    "operationalDate": "NOVEMBER 03",
+    "category": "DIGITAL PURGE",
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "order": 3,
+    "dayNumber": 3,
+    "codeName": "OPERATION GREYSCALE PURGE",
+    "hazardLevel": "SEVERE",
+    "prohibitedActions": [
+      "Viewing high-color-depth video transmissions.",
+      "Unlocking handheld devices during bedroom hours.",
+      "Engaging with short-form algorithmic video streams."
+    ],
+    "sanctionedCountermeasures": [
+      "Shift all digital displays to monochrome / 1-bit display mode.",
+      "Read technical manuals regarding cold-rolled steel tolerances."
+    ],
+    "nationalComplianceRate": "PENDING COMMENCEMENT"
+  },
+  {
+    "id": "dir-day-04",
+    "title": "THE SOVEREIGN WALNUT VIGIL: POCKET DEXTERITY",
+    "body": "Test physical dexterity and conscious presence through pocket custody of a fragile walnut. The physical preservation of the nut symbolizes the uncracked resolve of the sovereign citizen.",
+    "plainSummary": "Carry a walnut in your pocket all day. Don't crack it. Don't lose it. Just carry it.",
+    "publicationDate": "2026-11-04T05:00:00Z",
+    "operationalDate": "NOVEMBER 04",
+    "category": "PHYSICAL DEXTERITY",
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "order": 4,
+    "dayNumber": 4,
+    "codeName": "THE SOVEREIGN WALNUT VIGIL",
+    "hazardLevel": "CRITICAL",
+    "prohibitedActions": [
+      "Cracking, biting, or scratching the assigned pocket walnut.",
+      "Placing hands inside pockets during public assembly without immediate purpose."
+    ],
+    "sanctionedCountermeasures": [
+      "Inspect the shell hourly for structural integrity.",
+      "Recite the Walnut Oath upon encountering any state official."
+    ],
+    "nationalComplianceRate": "COMMENCING IN 48 HOURS"
+  },
+  {
+    "id": "dir-day-05",
+    "title": "[DRAFT] OPERATION TRACTOR GAZETTE: ALGORITHMIC ISOLATION",
+    "body": "Citizen internet traffic will be routed solely through agricultural tractor schematics and municipal grain reports. Draft awaiting General Staff ratification.",
+    "plainSummary": "Only read about tractors online today. Everything else is off-limits.",
+    "publicationDate": "2026-11-05T05:00:00Z",
+    "operationalDate": "NOVEMBER 05",
+    "category": "DIGITAL PURGE",
+    "isFeatured": false,
+    "publicationStatus": "draft",
+    "order": 5,
+    "dayNumber": 5,
+    "codeName": "OPERATION TRACTOR GAZETTE",
+    "hazardLevel": "CATASTROPHIC",
+    "prohibitedActions": [
+      "Accessing any URL ending in .social or .stream.",
+      "Opening non-approved agricultural PDF blueprints."
+    ],
+    "sanctionedCountermeasures": [
+      "Manual transcription of tractor gear ratios into notebook."
+    ],
+    "nationalComplianceRate": "UNRATIFIED DRAFT"
+  }
+]

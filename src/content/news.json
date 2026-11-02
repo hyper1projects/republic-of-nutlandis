@@ -1,0 +1,92 @@
+[
+  {
+    "id": "news-001",
+    "title": "THE NATION REMAINS ON HIGH ALERT.",
+    "summary": "The General addresses citizens amid growing concerns over national reserve stability.",
+    "body": [
+      "From the High Redoubt, General Bartholomew V. Nutcracker addressed the Republic at 06:00 hours following unprecedented fluctuations along the eastern perimeter.",
+      "'Let no citizen doubt the sovereign resolve of Nutlandis,' the General stated, pointing toward the continental horizon. 'The national reserve is guarded by collective fortitude and uninterrupted discipline. Speculative noise will not breach our kernel.'",
+      "Municipal sirens across all sectors sounded thirty seconds of resolute silence in confirmation of the General's address. Citizens are commanded to verify all on-chain parameters through official Treasury relays.",
+      "The General Staff reminds all districts that vigilance remains the paramount duty of every registered citizen throughout the duration of the thirty-day cycle."
+    ],
+    "publicationDate": "2026-11-02T06:00:00Z",
+    "category": "NATIONAL INTEREST",
+    "isFeatured": true,
+    "publicationStatus": "published",
+    "order": 1,
+    "code": "NATIONAL BULLETIN / 001",
+    "classification": "NATIONAL INTEREST",
+    "department": "OFFICE OF THE GENERAL",
+    "archivalRef": "DEPT-PUB-INFO / BOX 44 / FOLDER 02-NOV",
+    "fieldDispatches": [
+      {
+        "location": "Sector 1 (Capital District)",
+        "report": "Zero perimeter violations recorded. Public bathhouses converted to salt-ice plunge facilities.",
+        "status": "OPTIMAL"
+      },
+      {
+        "location": "Sector 4 (Lower Hazel Valley)",
+        "report": "Citizen caught browsing lingerie catalog in hardware depot. Subject sentenced to 400 kettlebell swings.",
+        "status": "VIGILANT"
+      },
+      {
+        "location": "Sector 7 (Eastern Walnut Marsh)",
+        "report": "Algorithmic internet throttle active. Video bandwidth restricted to 144p grayscale educational documentaries on bricklaying.",
+        "status": "OPTIMAL"
+      }
+    ]
+  },
+  {
+    "id": "news-002",
+    "title": "MUNICIPAL WATER RESERVOIRS ENGAGE WINTER BYPASS TO PREVENT ACCIDENTAL STEAM EXPOSURE",
+    "summary": "Engineering Corps completed mandatory thermodynamic modifications across twenty-four municipal boiler stations, capping residential water heaters at 5°C throughout nocturnal hours.",
+    "body": [
+      "Following reports of unapproved hot baths in outlying residential quadrants, Chief Engineer Vane announced the complete isolation of domestic thermostatic regulators.",
+      "The national grid will cycle solely through glacial mountain runoff until the conclusion of the thirty-day cycle. Citizens complaining of numb fingertips are advised that numbness is an honorable physical testament to sovereign endurance."
+    ],
+    "publicationDate": "2026-11-01T14:30:00Z",
+    "category": "CIVIC DISCIPLINE",
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "order": 2,
+    "code": "DISPATCH // INFRA-HYD-041",
+    "classification": "PUBLIC ARCHIVE",
+    "department": "MINISTRY OF PUBLIC WORKS",
+    "archivalRef": "INFRA-RECORD / BOX 12 / HYDRAULICS"
+  },
+  {
+    "id": "news-003",
+    "title": "SECTOR 3 INCIDENT REPORT: UNREGISTERED CASHEW BUTTER FACTORY SHUT DOWN IN PRE-DAWN RAID",
+    "summary": "Special customs gendarmes impounded three tons of illegally whipped legumes and remanded six black-market confectioners to the Northern Quarry for thirty days of dry gravel crushing.",
+    "body": [
+      "Customs officers executing a search warrant in Sector 3 unearthed an industrial confectionery line operating inside a disused grain silo. Officers discovered automated emulsifiers processing high-fat cashews into smooth spreads.",
+      "Under Executive Order 89, all creamy spreads are designated potential relaxation triggers. The seized material has been consigned to military furnaces to fuel emergency siren generators."
+    ],
+    "publicationDate": "2026-11-01T10:15:00Z",
+    "category": "RESOURCE CONTROL",
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "order": 3,
+    "code": "DISPATCH // CUST-SEC3-119",
+    "classification": "RESTRICTED EXECUTIVE",
+    "department": "DIRECTORATE OF ECONOMIC INTEGRITY",
+    "archivalRef": "CONTRABAND / CASE 884-A"
+  },
+  {
+    "id": "news-004",
+    "title": "[DRAFT] MID-CAMPAIGN MORALE EVALUATION SCHEDULED FOR DAY 15 ADDRESS",
+    "summary": "Preparatory draft for the General's halfway radio address. Not yet approved for public syndication.",
+    "body": [
+      "Internal draft: General Staff will evaluate continental retention rates at the 360-hour mark. If compliance remains above 99%, an extra ration of dry roasted soybeans will be authorized for all registered districts."
+    ],
+    "publicationDate": "2026-11-15T00:00:00Z",
+    "category": "STRATEGIC PLANNING",
+    "isFeatured": false,
+    "publicationStatus": "draft",
+    "order": 4,
+    "code": "DRAFT-GAZETTE-DAY15",
+    "classification": "EYES ONLY — COUNCIL",
+    "department": "GENERAL STAFF",
+    "archivalRef": "INTERNAL / PENDING RATIFICATION"
+  }
+]
