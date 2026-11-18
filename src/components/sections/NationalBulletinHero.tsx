@@ -23,7 +23,7 @@ export const NationalBulletinHero: React.FC = () => {
             A FICTIONAL REPUBLIC. A REAL MEME TOKEN.
           </div>
           <p className="font-sans text-xs sm:text-sm text-ink-secondary max-w-3xl leading-relaxed">
-            Welcome to Nutlandis, home of $NNN. Explore the fiction; verify the token details. No government backing. The absurdity is official.
+            Welcome to Nutlandis, home of $NUTS. Explore the fiction; verify the token details. No government backing. The absurdity is official.
           </p>
         </div>
 
@@ -60,12 +60,10 @@ export const NationalBulletinHero: React.FC = () => {
                 <span className="text-base font-sans">→</span>
               </button>
             </div>
-
           </div>
 
           {/* Column 2: Framed State Portrait of General Nutcracker (3.5 cols) */}
           <div className="lg:col-span-3 flex flex-col items-center">
-            
             <div className="w-full max-w-[280px] border border-grid-line bg-paper-raised p-1 shadow-sm">
               <div className="relative border border-grid-line/60 bg-[#DCD0B9] overflow-hidden">
                 <img
@@ -81,7 +79,6 @@ export const NationalBulletinHero: React.FC = () => {
               <span>GENERAL NUTCRACKER</span>
               <span>STATE PORTRAIT / 001</span>
             </div>
-
           </div>
 
           {/* Column 3: OFFICIAL DOSSIER Card (3.5 cols) */}
@@ -96,7 +93,6 @@ export const NationalBulletinHero: React.FC = () => {
 
                 {/* Social Relay Icons */}
                 <div className="flex items-center gap-3 text-ink-secondary">
-                  {/* X / Twitter Icon */}
                   <a
                     href="https://x.com/nonutlandis?s=11"
                     target="_blank"
@@ -109,7 +105,6 @@ export const NationalBulletinHero: React.FC = () => {
                     </svg>
                   </a>
 
-                  {/* Telegram Icon */}
                   <a
                     href="https://t.me/nonutlandis"
                     target="_blank"
@@ -118,11 +113,10 @@ export const NationalBulletinHero: React.FC = () => {
                     title="Encrypted Civilian Relay (Telegram)"
                   >
                     <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.75-2.1-.75-.72 0-1.22.17-1.56.45-.34.28-.63.65-.63 1.1 0 .45.29.82.63 1.1.34.28.84.45 1.56.45.88 0 1.49-.28 1.85-.83.14-.22.2-.5.2-.83zm-1.1-3.5c-.88 0-1.44.37-1.44 1.05 0 .68.56 1.05 1.44 1.05.88 0 1.44-.37 1.44-1.05 0-.68-.56-1.05-1.44-1.05z" />
                     </svg>
                   </a>
 
-                  {/* TikTok Icon */}
                   <a
                     href="https://www.tiktok.com/@nutlandis"
                     target="_blank"
@@ -131,7 +125,7 @@ export const NationalBulletinHero: React.FC = () => {
                     title="National Broadcast Reel (TikTok)"
                   >
                     <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-                      <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                      <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.01 8.75-.01 1.23-.21 2.44-.81 3.53-.76 1.38-2.02 2.45-3.51 2.95-1.43.48-3.03.49-4.48.08-1.51-.43-2.86-1.35-3.75-2.63-.89-1.28-1.3-2.86-1.11-4.4.19-1.54.98-2.98 2.17-3.95 1.26-1.03 2.94-1.49 4.57-1.29.02 1.48.01 2.96.01 4.44-.71-.23-1.52-.1-2.12.33-.61.43-.99 1.13-.99 1.87 0 .74.38 1.44.99 1.87.61.43 1.42.56 2.13.33.72-.23 1.29-.83 1.52-1.55.11-.34.11-.69.11-1.04V.02z" />
                     </svg>
                   </a>
                 </div>
@@ -139,7 +133,6 @@ export const NationalBulletinHero: React.FC = () => {
 
               {/* Dossier Data Fields */}
               <div className="space-y-3 font-sans">
-                
                 {/* 1. Head of State */}
                 <div className="border-b border-grid-line/60 pb-2">
                   <div className="font-mono text-[10px] sm:text-[11px] text-ink-muted uppercase tracking-wider mb-0.5">
@@ -186,23 +179,19 @@ export const NationalBulletinHero: React.FC = () => {
                     NATIONAL TOKEN
                   </div>
                   <div className="text-sm sm:text-base font-medium text-ink-primary">
-                    $NNN
+                    $NUTS
                   </div>
                 </div>
-
               </div>
-
             </div>
           </div>
-
         </div>
 
         {/* Bottom Classification Bar */}
-        <div className="border-t border-grid-line pt-3 mt-8 sm:mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-[10px] sm:text-[11px] font-mono text-ink-secondary uppercase tracking-widest">
+        <div className="border-t border-grid-line pt-3 mt-8 sm:mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-[10px] sm:text-[11px] font-mono text-ink-secondary uppercase">
           <span>CLASSIFICATION: {leadNews.classification}</span>
           <span>ISSUED BY: {leadNews.department || 'OFFICE OF THE GENERAL'}</span>
         </div>
-
       </div>
 
       {/* Modal for Full Lead Gazette Dispatch */}
