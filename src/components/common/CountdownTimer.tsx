@@ -3,21 +3,10 @@ import { Clock, ArrowUpRight } from 'lucide-react';
 import { COMMUNITY_LINKS } from '../../data/nationalData';
 
 const GMT_MINUS_8_OFFSET_MS = -8 * 60 * 60 * 1000;
-const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+const LAUNCH_AT_UTC_MS = Date.UTC(2026, 10, 20, 12) - GMT_MINUS_8_OFFSET_MS;
 
 const getCountdown = (now: number): string => {
-  // Treat GMT-8 as a fixed UTC-8 offset, independent of the browser's timezone.
-  const gmtMinus8Now = new Date(now + GMT_MINUS_8_OFFSET_MS);
-  let target = Date.UTC(
-    gmtMinus8Now.getUTCFullYear(),
-    gmtMinus8Now.getUTCMonth(),
-    gmtMinus8Now.getUTCDate(),
-    12,
-  ) - GMT_MINUS_8_OFFSET_MS;
-
-  if (target <= now) target += ONE_DAY_MS;
-
-  const totalSeconds = Math.ceil((target - now) / 1000);
+  const totalSeconds = Math.max(0, Math.ceil((LAUNCH_AT_UTC_MS - now) / 1000));
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
@@ -44,7 +33,7 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-official-red animate-pulse" />
             <span className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-official-red uppercase">
-              12 PM GMT-8 IN:
+              NOVEMBER 20, 12 PM GMT-8 IN:
             </span>
             <span className="font-mono text-xs sm:text-sm font-bold tracking-wider text-paper-raised">
               {timeRemaining}
@@ -71,7 +60,7 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
         <div className="flex items-center gap-2.5">
           <Clock className="w-4 h-4 text-official-red animate-pulse" />
           <span className="font-mono text-[11px] sm:text-xs font-bold tracking-[0.18em] text-official-red uppercase">
-            COUNTDOWN TO 12 PM GMT-8
+            COUNTDOWN TO NOVEMBER 20, 12 PM GMT-8
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -94,7 +83,7 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
 
       <div className="pt-1 text-center space-y-1">
         <p className="font-sans text-xs sm:text-sm text-paper-secondary/85 leading-relaxed max-w-2xl mx-auto">
-          The national reserve remains locked in sovereign escrow while continental telemetry synchronizes across social relays. At T-Zero, the official $NNN pool will be instantiated on <strong>pump.fun</strong> for civilian acquisition.
+          The national reserve remains locked in sovereign escrow while continental telemetry synchronizes across social relays. At T-Zero, the official $NNN pool will be instantiated on <strong>pump.fun</strong>.
         </p>
       </div>
 
