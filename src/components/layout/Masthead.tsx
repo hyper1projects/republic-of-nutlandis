@@ -25,13 +25,13 @@ export const Masthead: React.FC = () => {
             </div>
           </a>
 
-          {/* Right: Outlined $NNN Treasury Button */}
+          {/* Right: Outlined $NUTS Treasury Button */}
           <div className="flex-shrink-0">
             <a
               href="#treasury"
               className="inline-flex items-center justify-center border border-official-red text-official-red hover:bg-official-red hover:text-paper-raised transition-all px-3 sm:px-6 py-1.5 sm:py-2.5 font-sans font-semibold text-[11px] sm:text-sm tracking-wide rounded-[1px] active:translate-y-[1px] whitespace-nowrap"
             >
-              $NNN Treasury
+              $NUTS Treasury
             </a>
           </div>
 
