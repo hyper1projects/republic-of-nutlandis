@@ -103,7 +103,7 @@ export const Footer: React.FC = () => {
                   className="flex items-center justify-between font-bold hover:opacity-90 transition-opacity"
                   style={{ color: '#AD4032' }}
                 >
-                  <span>LAUNCH / ACQUIRE $NNN (PUMP.FUN)</span>
+                  <span>LAUNCH / ACQUIRE $NUTS (PUMP.FUN)</span>
                   <span className="ml-3">[LIVE]</span>
                 </a>
               </li>
@@ -131,7 +131,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex items-center justify-between gap-2">
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-40" style={{ color: '#EAE0CA' }}>NATIONAL TOKEN</span>
-            <span className="font-mono text-[10px] uppercase tracking-widest font-bold" style={{ color: '#EAE0CA' }}>$NNN</span>
+            <span className="font-mono text-[10px] uppercase tracking-widest font-bold" style={{ color: '#EAE0CA' }}>$NUTS</span>
           </div>
           <div className="flex items-center justify-between gap-2">
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-40" style={{ color: '#EAE0CA' }}>CLASSIFICATION</span>
@@ -142,7 +142,7 @@ export const Footer: React.FC = () => {
         {/* ── Disclaimer ── */}
         <div className="py-5 sm:py-6">
           <p className="font-sans text-xs leading-relaxed opacity-50" style={{ color: '#EAE0CA' }}>
-            The Republic of Nutlandis is a fictional internet community and creative project. $NNN is a speculative meme token associated with this project and is not an investment guarantee or representation of government-backed financial value.
+            The Republic of Nutlandis is a fictional internet community and creative project. $NUTS is a speculative meme token associated with this project and is not an investment guarantee or representation of any governmental body. Participate at your own risk.
           </p>
         </div>
 
