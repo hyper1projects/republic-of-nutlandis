@@ -179,7 +179,7 @@ export const NationalTreasury: React.FC = () => {
                     </div>
                   </div>
                   <div className="py-3.5 sm:pl-6 sm:w-1/2">
-                    <div class="font-mono text-[10px] text-ink-muted tracking-widest uppercase mb-1">CURRENT MARKET PRICE</div>
+                    <div className="font-mono text-[10px] text-ink-muted tracking-widest uppercase mb-1">CURRENT MARKET PRICE</div>
                     <div className="font-sans text-sm text-ink-secondary italic">
                       {marketPrice ?? 'Live source not connected'}
                     </div>
