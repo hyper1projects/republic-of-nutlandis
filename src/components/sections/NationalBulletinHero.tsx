@@ -94,7 +94,7 @@ export const NationalBulletinHero: React.FC = () => {
                 {/* Social Relay Icons */}
                 <div className="flex items-center gap-3 text-ink-secondary">
                   <a
-                    href="https://x.com/nonutlandis?s=11"
+                    href="https://x.com/nutlandis"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-ink-primary transition-colors"
