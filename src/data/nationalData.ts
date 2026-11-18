@@ -1,7 +1,7 @@
 export const COMMUNITY_LINKS = {
-  x: "https://x.com/nutlandis?s=11",
+  x: "https://x.com/nutlandis",
   telegram: "https://t.me/nonutlandis",
-  tiktok: "https://www.tiktok.com/@nnn.nutlandis?_r=1&_t=ZP-9BEOHQtcqw2",
+  tiktok: "https://www.tiktok.com/@nnn.nutlandis",
   pumpFun: "https://pump.fun"
 };
 
