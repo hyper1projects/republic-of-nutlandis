@@ -1,10 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Clock, ArrowUpRight } from 'lucide-react';
 import { COMMUNITY_LINKS } from '../../data/nationalData';
 
-const STATUS_TEXT = 'UPDATED SOON';
+const GMT_MINUS_8_OFFSET_MS = -8 * 60 * 60 * 1000;
+const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+
+const getCountdown = (now: number): string => {
+  // Treat GMT-8 as a fixed UTC-8 offset, independent of the browser's timezone.
+  const gmtMinus8Now = new Date(now + GMT_MINUS_8_OFFSET_MS);
+  let target = Date.UTC(
+    gmtMinus8Now.getUTCFullYear(),
+    gmtMinus8Now.getUTCMonth(),
+    gmtMinus8Now.getUTCDate(),
+    12,
+  ) - GMT_MINUS_8_OFFSET_MS;
+
+  if (target <= now) target += ONE_DAY_MS;
+
+  const totalSeconds = Math.ceil((target - now) / 1000);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  return [hours, minutes, seconds]
+    .map((part) => String(part).padStart(2, '0'))
+    .join(':');
+};
 
 export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ variant = 'treasury' }) => {
+  const [timeRemaining, setTimeRemaining] = useState('--:--:--');
+
+  useEffect(() => {
+    const updateCountdown = () => setTimeRemaining(getCountdown(Date.now()));
+    updateCountdown();
+    const intervalId = window.setInterval(updateCountdown, 1000);
+    return () => window.clearInterval(intervalId);
+  }, []);
+
   if (variant === 'banner') {
     return (
       <div className="w-full bg-[#1F1C18] border-b border-official-red/40 py-2.5 px-4 text-paper-raised">
@@ -12,10 +44,10 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-official-red animate-pulse" />
             <span className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-official-red uppercase">
-              STATUS:
+              12 PM GMT-8 IN:
             </span>
-            <span className="font-mono text-xs sm:text-sm font-bold tracking-wider text-paper-raised uppercase">
-              {STATUS_TEXT}
+            <span className="font-mono text-xs sm:text-sm font-bold tracking-wider text-paper-raised">
+              {timeRemaining}
             </span>
           </div>
 
@@ -39,7 +71,7 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
         <div className="flex items-center gap-2.5">
           <Clock className="w-4 h-4 text-official-red animate-pulse" />
           <span className="font-mono text-[11px] sm:text-xs font-bold tracking-[0.18em] text-official-red uppercase">
-            STATUS // {STATUS_TEXT}
+            COUNTDOWN TO 12 PM GMT-8
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -51,8 +83,11 @@ export const CountdownTimer: React.FC<{ variant?: 'treasury' | 'banner' }> = ({ 
 
       <div className="max-w-xl mx-auto py-2">
         <div className="border border-official-red/40 bg-[#1D1A16] p-6 sm:p-8 rounded-[1px] text-center shadow-inner ring-1 ring-official-red/20">
-          <div className="font-mono font-black text-2xl sm:text-4xl lg:text-5xl text-official-red tracking-tight uppercase">
-            {STATUS_TEXT}
+          <div aria-live="off" className="font-mono font-black text-2xl sm:text-4xl lg:text-5xl text-official-red tracking-tight tabular-nums">
+            {timeRemaining}
+          </div>
+          <div className="mt-2 font-mono text-[10px] sm:text-xs text-paper-secondary/70 uppercase tracking-widest">
+            HOURS : MINUTES : SECONDS // GMT-8
           </div>
         </div>
       </div>
